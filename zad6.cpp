@@ -16,5 +16,7 @@ int main()
 	cout << "Podaj predkosc: ";
 	cin >> v;
 	cout << "Energia kinetyczna wynosi: " << kineticEnergy(m, v) << endl;
+	cout << endl;
+	system("pause");
 	return 0;
 }

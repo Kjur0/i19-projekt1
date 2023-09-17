@@ -17,33 +17,37 @@ int main()
 	{
 	case 1:
 		cout << "I";
-		return 0;
+		break;
 	case 2:
 		cout << "II";
-		return 0;
+		break;
 	case 3:
 		cout << "III";
-		return 0;
+		break;
 	case 4:
 		cout << "IV";
-		return 0;
+		break;
 	case 5:
 		cout << "V";
-		return 0;
+		break;
 	case 6:
 		cout << "VI";
-		return 0;
+		break;
 	case 7:
 		cout << "VII";
-		return 0;
+		break;
 	case 8:
 		cout << "VIII";
-		return 0;
+		break;
 	case 9:
 		cout << "IX";
-		return 0;
+		break;
 	case 10:
 		cout << "X";
-		return 0;
+		break;
 	}
+
+	cout << endl;
+	system("pause");
+	return 0;
 }

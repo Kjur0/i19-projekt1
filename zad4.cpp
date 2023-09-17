@@ -24,5 +24,8 @@ int main()
 		cout << "Masz mniej niz 1zl";
 	else
 		cout << "Masz dokladnie 1zl";
+		
+	cout << endl;
+	system("pause");
 	return 0;
 }

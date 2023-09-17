@@ -15,5 +15,7 @@ int main()
 		 << "Wartosc podatku naliczonego w stanie: " << podatekStanowy << endl
 		 << "Wartosc calkowita podatku: " << podatekHrabsto + podatekStanowy << endl;
 
+	cout << endl;
+	system("pause");
 	return 0;
 }
