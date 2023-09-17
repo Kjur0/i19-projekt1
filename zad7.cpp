@@ -6,7 +6,6 @@ using namespace std;
 int rng()
 {
 	int rn = rand() % 5;
-	int rn = floor(rand() * 5);
 	switch (rn)
 	{
 	case 0:
