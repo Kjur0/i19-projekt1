@@ -5,7 +5,11 @@ using namespace std;
 
 int rng()
 {
+<<<<<<< HEAD
 	int rn = rand() % 5;
+=======
+	int rn = floor(rand() * 5);
+>>>>>>> ab6c2762d54bb7b5d377621f37a085b1ca3ecd09
 	switch (rn)
 	{
 	case 0:
