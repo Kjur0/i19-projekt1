@@ -6,8 +6,7 @@
 > Kompilator: `MSVC CL`
 > Użyte biblioteki:
 >
-> - `iostream`
-> - `cmath`
-> - `string`
+> -   `iostream`
+> -   `cmath`
 
 **Proszę nie obniżać mi oceny z powodu użycia `goto`!**

@@ -1,12 +1,11 @@
 #include <iostream>
 #include <cmath>
-#include <string>
 
 using namespace std;
 
 int rng()
 {
-	int rn = math.floor(math.random() * 5);
+	int rn = rand() % 5;
 	switch (rn)
 	{
 	case 0:
@@ -33,18 +32,17 @@ int rng()
 
 int main()
 {
-	int hais, a, b, c, wybor;
-wplac:
+	int hais, a, b, c;
+	char wybor;
+graj:
 	cout << "Wplac sume: ";
 	cin >> hais;
-losoj:
 	a = rng();
 	cout << ' ';
 	b = rng();
 	cout << ' ';
 	c = rng();
 	cout << endl;
-wygraj:
 	if (a == b && b == c)
 		hais *= 3;
 	else if (a == b || b == c || a == c)
@@ -53,10 +51,11 @@ wygraj:
 		hais *= 0;
 	cout << "Wygrales: " << hais;
 jeszczeRaz:
-	cout << "Czy chcesz powtorzyc? (t/n): ";
+	cout << endl
+		 << "Czy chcesz powtorzyc? (t/n): ";
 	cin >> wybor;
 	if (wybor == 't')
-		goto wplac;
+		goto graj;
 	else if (wybor == 'n')
 		goto koniec;
 	else
