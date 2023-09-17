@@ -37,5 +37,7 @@ czyPowtorzyc:
 	else
 		goto czyPowtorzyc;
 koniec:
+	cout << endl;
+	system("pause");
 	return 0;
 }

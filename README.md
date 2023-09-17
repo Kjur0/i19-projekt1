@@ -3,11 +3,11 @@
 ## Powtórzenie
 
 > IDE: `VS Code`
-> Kompilator: `MVSB CL`
+> Kompilator: `MSVC CL`
 > Użyte biblioteki:
 >
 > -   `iostream`
 > -   `cmath`
 > -   `string`
 
-**Proszę nie obniżać mi oceny z powodu użycia `goto`!!**
+**Proszę nie obniżać mi oceny z powodu użycia `goto`!**

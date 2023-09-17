@@ -62,5 +62,7 @@ jeszczeRaz:
 	else
 		goto jeszczeRaz;
 koniec:
+	cout << endl;
+	system("pause");
 	return 0;
 }
